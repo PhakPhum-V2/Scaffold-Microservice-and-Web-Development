@@ -7,5 +7,10 @@ describe("health route", () => {
 
     expect(response.status).toBe(200);
     expect(await response.json()).toEqual({ status: "ok" });
+    
   });
 });
+
+
+
+
